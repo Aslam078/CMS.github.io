@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pr-90 {
+    padding-right: 90px;
+}
+
+.mx-150 {
+    margin-left: 9.77vw;
+    margin-right: 9.77vw;
+}
+
+.px-150 {
+    padding-left: 9.77vw;
+    padding-right: 9.77vw;
+}
+
+.mt-72 {
+    margin-top: 72px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+body {
+    font-family: 'Satosi', sans-serif;
+}
+
+.nav-font-size {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.log-btn {
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+}
+
+.try-btn {
+    border-radius: 0.25rem;
+    background: #004050;
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: -0.01213rem;
+}
+
+.heading-one {
+    color: #000;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.625rem;
+    letter-spacing: -0.05556rem;
+}
+
+.para {
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    flex-shrink: 0;
+    background: #787878;
+    margin-top: 6.52vw;
+    margin-bottom: 3.12vw;
+}
+
+.goal-heading {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    /* 120.833% */
+}
+
+.per-info h6 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.per-info p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.team-member p{
+    /* width: 80%; */
+    color: #1B2730;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.75rem;
+}
+
+.team-member h1{
+    color: #000;
+font-size: 6rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.08331rem;
+}
+
+.amazing-team{
+    background: #F4F4F4;
+}
+
+.amazimg-team-detail h4{
+    color: #000;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.amazimg-team-detail p{
+    color: #000;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.position{
+    color: #000;
+text-align: right;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.02681rem;
+}
+
+.cta{
+    background: #004050;
+}
+
+.foot-add{
+    color: #404040;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.foot-coll h3{
+    color: #000;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.foot-coll ul,
+.terms ul{
+    padding: 0;
+    list-style: none;
+    
+}
+
+.foot-coll a,
+.terms a{
+    color: #000;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.125rem; /* 242.857% */
+letter-spacing: 0.0125rem;
+text-decoration: none;
+}
+
+.language{
+    text-align: end;
+}
+
+.terms ul{
+    gap: 48px;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .about-header,
+    .together-content,
+    .goal {
+        flex-direction: column;
+    }
+
+    .para {
+        padding-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+
+    .about-header {
+        margin-top: 3.12rem;
+        margin-bottom: 3rem;
+    }
+
+    .heading-one {
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.875rem;
+        letter-spacing: -0.03125rem;
+    }
+
+    .goal-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.125rem;
+    letter-spacing: -0.02081rem;
+    }
+
+    .para {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.625rem;
+    }
+    .team-main{
+        flex-direction: column;
+    }
+
+    .team-member{
+        padding: 0 24px;
+    }
+
+    .team-member p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    }
+
+    .team-member h1{
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 3rem;
+        letter-spacing: -0.04169rem;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terms ul{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .language{
+        text-align: start;
+    }
+
+    .question img{
+        width: 229px;
+        height: 278px;
+
+    }
+    .contact{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact button{
+        justify-content: center;
+    }
+
+    .join{
+        display: flex;flex-direction: column;
+    }
+
+    .amazimg-team img{
+        width: 130px;
+        flex-shrink: 0;
+    }
+
+    .amazimg-team-detail h4{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .amazimg-team-detail p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+}

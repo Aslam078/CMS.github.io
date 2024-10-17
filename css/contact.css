@@ -1,0 +1,266 @@
+/* ------------navbar------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.pr-90 {
+    padding-right: 90px;
+}
+
+.mw-750 {
+    max-width: 750px;
+}
+
+.ms-345 {
+    margin-left: 345px;
+}
+
+.mx-150 {
+    margin-left: 9.77vw;
+    margin-right: 9.77vw;
+}
+
+.px-150 {
+    padding-left: 9.77vw;
+    padding-right: 9.77vw;
+}
+
+.mt-72 {
+    margin-top: 72px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+body {
+    font-family: 'Satosi', sans-serif;
+}
+
+.bg-color {
+    background: #F4F4F4;
+}
+
+.nav-font-size {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.log-btn {
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+
+}
+
+.try-btn {
+    border-radius: 8px;
+    background: #004050;
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: -0.01213rem;
+}
+
+.btn-border {
+    border-radius: 8px;
+}
+
+.access {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* ------------navbar-end------------ */
+
+.heading-one {
+    color: #000;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.625rem;
+    letter-spacing: -0.05556rem;
+}
+
+.para-blog {
+    color: #000;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.h-line {
+    width: 1px;
+    height: 48px;
+    margin-right: 16px;
+    background: #787878;
+}
+
+form ::placeholder {
+    color: #787878;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.292px;
+}
+
+.input input {
+    max-width: 555px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    border: none;
+}
+
+.textarea textarea {
+    border: none;
+    max-width: 555px;
+    max-height: 190px;
+    min-height: 190px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.map{
+    width: 80%;
+}
+
+.btn-border {
+    border-radius: 8px;
+    background: #00CC61;
+    color: #FFF;
+}
+
+/* ------------footer------------ */
+
+.foot-add {
+    color: #404040;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.foot-coll h3 {
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.foot-coll ul,
+.terms ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+.foot-coll a,
+.terms a {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.125rem;
+    /* 242.857% */
+    letter-spacing: 0.0125rem;
+    text-decoration: none;
+}
+
+.language {
+    text-align: end;
+}
+
+.terms ul {
+    gap: 48px;
+}
+
+.line{
+    background: #C8C8C8;
+    height: 1px;
+    flex-shrink: 0;
+}
+
+/* ------------footer end------------ */
+
+
+@media only screen and (max-width: 426px) {
+    .heading-one {
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.875rem;
+        letter-spacing: -0.03125rem;
+    }
+
+    .para {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.625rem;
+    }
+
+    form ::placeholder {
+        color: #787878;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        /* 162.5% */
+        letter-spacing: -0.222px;
+    }
+
+    .form-map{
+        flex-direction: column-reverse;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    .help{
+        flex-direction: column;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terms ul {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .language {
+        text-align: start;
+    }
+
+
+}

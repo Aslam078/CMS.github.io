@@ -1,0 +1,293 @@
+/* ------------navbar------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Satosi', sans-serif;
+    box-sizing: border-box;
+}
+
+.bg-color {
+    background: #F4F4F4;
+}
+
+.nav-font-size {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.log-btn {
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+
+}
+
+.try-btn {
+    border-radius: 8px;
+    background: #004050;
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: -0.01213rem;
+}
+
+.btn-border {
+    border-radius: 8px;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    color: #000;
+}
+
+.access {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* ------------navbar-end------------ */
+
+/* ------------News-plan------------ */
+
+.heading-one {
+    color: #000;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.625rem;
+    letter-spacing: -0.05556rem;
+}
+
+.heading-two {
+    color: #000;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.125rem;
+    /* 125% */
+    letter-spacing: -0.03475rem;
+}
+
+.heading-three {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.125rem;
+    /* 141.667% */
+    letter-spacing: -0.02081rem;
+}
+
+.heading-marketing {
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.625rem;
+    /* 131.25% */
+    letter-spacing: -0.02775rem;
+}
+
+.para {
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.items a {
+    color: #777;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.items a:after {
+    background: none repeat scroll 0 0 transparent;
+    top: 45px;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #00CC61;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.items a:hover:after {
+    width: 100%;
+    left: 0;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.line {
+    background: #787878;
+
+    height: 1px;
+    flex-shrink: 0;
+}
+
+.service {
+    color: #787878;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0875rem;
+    text-transform: uppercase;
+}
+
+
+
+.dropdown {
+    display: none;
+}
+
+/* ------------News end------------ */
+
+
+/* ------------Cards end------------ */
+
+.cards img {
+    width: 100%;
+}
+
+/* ------------Card end------------ */
+
+
+/* ------------supercharge------------ */
+
+.supercharge {
+    background-image: url("/assets/svg/pricing-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ------------supercharge end------------ */
+
+/* ------------footer------------ */
+
+.foot-add {
+    color: #404040;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.foot-coll h3 {
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.foot-coll ul,
+.terms ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+.foot-coll a,
+.terms a {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.125rem;
+    /* 242.857% */
+    letter-spacing: 0.0125rem;
+    text-decoration: none;
+}
+
+.language {
+    text-align: end;
+}
+
+.terms ul {
+    gap: 48px;
+}
+
+/* ------------footer end------------ */
+
+
+
+@media only screen and (max-width: 426px) {
+
+    .heading-one {
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.875rem;
+        letter-spacing: -0.03125rem;
+    }
+
+    .para {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.625rem;
+    }
+
+    .s-para {
+        color: #000;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .dropdown button {
+        width: 100%;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    .items {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terms ul {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .language {
+        text-align: start;
+    }
+}
