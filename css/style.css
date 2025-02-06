@@ -734,7 +734,7 @@ body {
     .right-img,
     .right-img img {
         height: 240px;
-        width: 290px;
+        width: 286px;
 
     }
 
@@ -1026,6 +1026,10 @@ body {
 
 
 @media only screen and (max-width: 320px) {
+
+    .container{
+        padding: 0;
+    }
 
     .benefit {
         width: 100%;
