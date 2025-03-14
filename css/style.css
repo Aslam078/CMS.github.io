@@ -806,8 +806,6 @@ body {
 .card-two:hover {
     border-radius: 12px;
     background: #FFE377;
-    width: 374px;
-    height: 439px;
     color: #000;
     transform: translateY(-10px);
     transition-duration: 0.5s;
@@ -828,6 +826,7 @@ body {
     width: 374px;
     color: #FFF;
     height: 439px;
+    cursor: pointer;
 }
 
 .line-two {
@@ -915,8 +914,6 @@ body {
     .card-two {
         width: 374px;
         height: 439px;
-
-
     }
 
     .line-two {
@@ -1233,7 +1230,7 @@ body {
 
     .revenue-heading p,
     .statment-inner {
-        width: 40vw;
+        width: auto;
     }
 
     .line-revenue {
@@ -1266,6 +1263,7 @@ body {
     .revenue {
         display: flex;
         flex-direction: column;
+        gap: 12px;
     }
 
     .line-revenue {
@@ -1305,7 +1303,7 @@ body {
 
     .revenue-statment {
         width: auto;
-        height: 280px;
+        /* height: 280px; */
 
     }
 
@@ -1392,9 +1390,9 @@ body {
         flex-direction: column;
     }
 
-    .revenue-left {
+    /* .revenue-left {
         height: 85vh;
-    }
+    } */
 
     .revenue-heading h1 {
         font-size: 24px;
@@ -1487,9 +1485,9 @@ body {
         background: #787878;
     }
 
-    .revenue-left {
+    /* .revenue-left {
         height: 95vh;
-    }
+    } */
 
     .revenue-heading h1 {
         font-size: 26px;
@@ -3255,7 +3253,7 @@ body {
 
 @media only screen and (max-width: 1200px) {
     .real-life {
-        margin: 120px 8.4vw 240px 8.4vw;
+        margin: 120px 8.4vw auto 8.4vw;
         width: auto;
         height: auto;
     }
@@ -3265,7 +3263,7 @@ body {
 
 @media only screen and (max-width: 768px) {
     .real-life {
-        margin: 120px 8.4vw 240px 8.4vw;
+        margin: 120px 8.4vw auto 8.4vw;
         width: auto;
         height: auto;
     }
